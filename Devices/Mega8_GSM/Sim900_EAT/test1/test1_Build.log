@@ -1,0 +1,35 @@
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - Configuration: test1 [Project] - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Saving Project. . .
+Creating Makefile. . .
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>mkdir .\output 
+A subdirectory or file .\output already exists.
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>rem perl C:\ARM\SIM900DevIDE_DTMF_MultiTask_GCC\EmbatSIM\gsmos\tools\globalmacro 
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>perl C:\ARM\SIM900DevIDE_DTMF_MultiTask_GCC\EmbatSIM\gsmos\tools\renew 
+Scalar value @array_comp_opt[2] better written as $array_comp_opt[2] at C:\ARM\SIM900DevIDE_DTMF_MultiTask_GCC\EmbatSIM\gsmos\tools\renew line 32.
+Use of uninitialized value $all_files in split at C:\ARM\SIM900DevIDE_DTMF_MultiTask_GCC\EmbatSIM\gsmos\tools\renew line 45, <USR_OPTION_FILE> line 20.
+Use of uninitialized value $gcc_sym_files in split at C:\ARM\SIM900DevIDE_DTMF_MultiTask_GCC\EmbatSIM\gsmos\tools\renew line 46, <USR_OPTION_FILE> line 20.
+Use of uninitialized value $COMP_TYPE in string eq at C:\ARM\SIM900DevIDE_DTMF_MultiTask_GCC\EmbatSIM\gsmos\tools\renew line 54, <USR_OPTION_FILE> line 20.
+Cannot open version:No such file or directory at C:\ARM\SIM900DevIDE_DTMF_MultiTask_GCC\EmbatSIM\gsmos\tools\renew line 159, <USR_OPTION_FILE> line 20.
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>make OS=win  APPDIR=C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1 
+make: *** No rule to make target `─шёъ\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1'.  Stop.
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>if exist code\*.o move code\*.o     .\output 
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>if exist C:\ARM\SIM900DevIDE_DTMF_MultiTask_GCC\EmbatSIM\gsmos\flcode\*.o move C:\ARM\SIM900DevIDE_DTMF_MultiTask_GCC\EmbatSIM\gsmos\flcode\*.o .\output 
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>if exist *.o move *.o     .\output 
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>if exist *.cla move *.cla   .\output 
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>if exist *.elf move *.elf   .\output 
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>if exist *.map move *.map   .\output 
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>if exist *.sym move *.sym   .\output 
+
+C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1>pause
+Press any key to continue . . . 

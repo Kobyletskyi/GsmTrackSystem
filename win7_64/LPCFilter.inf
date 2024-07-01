@@ -1,0 +1,136 @@
+; LPCFilter.inf
+;
+; Installation inf for LPC Filter Driver
+;
+; (c) Copyright 2004-2012 Compal Electronics, INC.
+;     AST SD1
+;
+
+[Version]
+Signature="$Windows NT$"
+Class=System
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%PROVIDER_NAME%
+CatalogFile=LPCFilter.cat
+DriverVer=12/23/2011, 1.0.64.6
+
+[DestinationDirs]
+DefaultDestDir   = 12
+
+[Manufacturer]
+%PROVIDER_NAME%   = DeviceList, NTamd64
+
+[DeviceList]
+%DEVICE_NAME% = LPCFilter, PCI\CC_0601
+
+
+[DeviceList.NTamd64]
+%DEVICE_NAME% = LPCFilteramd64, PCI\CC_0601
+
+
+;
+; General installation section
+;
+
+[LPCFilteramd64]
+; perform port related actions from machine.inf
+Include=machine.inf
+Needs=ISAPNP_DRV
+
+; Copy the driver over
+CopyFiles=LPCFilteramd64.CopyFiles
+
+[LPCFilter]
+; perform port related actions from machine.inf
+Include=machine.inf
+Needs=ISAPNP_DRV
+
+; Copy the driver over
+CopyFiles=LPCFilter.CopyFiles
+
+
+;
+; File sections
+;
+
+[LPCFilter.CopyFiles]
+LPCFilter.sys
+
+[LPCFilteramd64.CopyFiles]
+LPCFilter.sys
+
+;
+; Service Installation
+;
+
+[LPCFilter.Services]
+AddService = LPCFilter,  , LPCFilter_Service_Inst
+; Install the port driver and mouclass from machine.inf
+Include=machine.inf
+Needs=ISAPNP_DRV.Services
+
+[LPCFilteramd64.Services]
+AddService = LPCFilter,  , LPCFilter_Service_Inst
+; Install the port driver and mouclass from machine.inf
+Include=machine.inf
+Needs=ISAPNP_DRV.Services
+
+[LPCFilter_Service_Inst]
+DisplayName    = %LPCFilter.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = "Boot Bus Extender"
+ServiceBinary  = %12%\LPCFilter.sys
+
+[LPCFilter.HW]
+; Add the device upper filter
+AddReg = LPCFilter.HW.AddReg
+
+[LPCFilteramd64.HW]
+; Add the device upper filter
+AddReg = LPCFilter.HW.AddReg
+
+; run the directives need by the port driver
+Include=machine.inf
+Needs=ISAPNP_DRV.AddReg
+
+[LPCFilter.HW.AddReg]
+HKR,,"LowerFilters",0x00010000,"LPCFilter"
+
+
+;
+; Source file information
+;
+
+; use [SourceDisksNames.x86] for x86 only installs
+; use [SourceDisksNames.alpha] for alpha only installs
+
+[SourceDisksNames]
+1 = %DiskId1%,,,
+
+[SourceDisksFiles]
+LPCFilter.sys = 1,,
+
+
+[Strings]
+
+;
+; Non-Localizable Strings
+;
+
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+SERVICEROOT    = "System\CurrentControlSet\Services"
+
+;
+; Localizable Strings
+;
+
+DiskId1 = "LPC Filter Driver Installation Disk #1"
+PROVIDER_NAME = "Compal Electronics, INC."
+LPCFilter.SvcDesc="LPC Lower Filter Driver"
+DEVICE_NAME = "LPC Interface Controller"

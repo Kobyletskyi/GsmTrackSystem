@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<SimStudioProject Name="test1" LocalPath="C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1" BLDPath="C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\Sim900_EAT\test1\">
+    <Files>
+        <Filter Name="code Files" Filter="cpp;c;cxx">
+            <File RelativePath=".\code\fl_customer.c" />
+        </Filter>
+        <Filter Name="Header Files" Filter="h;hpp;hxx" />
+    </Files>
+</SimStudioProject>

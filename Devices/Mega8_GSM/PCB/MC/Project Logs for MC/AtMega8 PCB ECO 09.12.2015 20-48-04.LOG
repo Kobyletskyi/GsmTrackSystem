@@ -1,0 +1,5 @@
+Added Component: Designator=R1(RESC(0805)2112X05N_wave)
+Added Pin To Net: NetName=RES Pin=R1-1
+Added Pin To Net: NetName=VCC Pin=R1-2
+Added Member To Class: ClassName=AtMega8 Member=Component R1 Resistor
+Added Room: Name=AtMega8

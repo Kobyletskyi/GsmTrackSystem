@@ -1,0 +1,14 @@
+FROM microsoft/dotnet:latest
+
+ARG WEB_CONTENT
+ARG API_CONTENT
+
+COPY . /app
+COPY ./$WEB_CONTENT /app/$WEB_CONTENT
+COPY ./$API_CONTENT /app
+WORKDIR /app
+
+EXPOSE 80/tcp
+ENV ASPNETCORE_URLS http://*:80
+
+ENTRYPOINT ["dotnet","api.dll"]

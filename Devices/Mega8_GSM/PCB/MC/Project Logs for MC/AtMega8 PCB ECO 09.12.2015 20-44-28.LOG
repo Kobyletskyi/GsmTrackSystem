@@ -1,0 +1,24 @@
+Added Pin To Net: NetName=MISO Pin=P3-4
+Added Pin To Net: NetName=MISO Pin=U1-16
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=P3-3
+Added Pin To Net: NetName=MOSI Pin=U1-15
+Added Net: Name=MOSI
+Added Pin To Net: NetName=RES Pin=P3-6
+Added Pin To Net: NetName=RES Pin=U1-29
+Added Net: Name=RES
+Added Pin To Net: NetName=RI Pin=P2-4
+Added Pin To Net: NetName=RI Pin=U1-32
+Added Net: Name=RI
+Added Pin To Net: NetName=RX Pin=P2-6
+Added Pin To Net: NetName=RX Pin=U1-30
+Added Net: Name=RX
+Added Pin To Net: NetName=SCK Pin=P3-5
+Added Pin To Net: NetName=SCK Pin=U1-17
+Added Net: Name=SCK
+Added Pin To Net: NetName=SLEEP Pin=P2-3
+Added Pin To Net: NetName=SLEEP Pin=U1-1
+Added Net: Name=SLEEP
+Added Pin To Net: NetName=TX Pin=P2-5
+Added Pin To Net: NetName=TX Pin=U1-31
+Added Net: Name=TX

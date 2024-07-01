@@ -1,0 +1,1 @@
+dotnet publish api.csproj /p:PublishProfile=<MsDeployPackage> -r win10-x64

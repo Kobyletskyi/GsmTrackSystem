@@ -1,0 +1,34 @@
+image: vvhistler/dotnet-node-build-image-linux-x64
+
+options:
+  docker: true
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - dotnetcore
+        script: 
+          # build web          
+          - cd web
+          - npm i
+          # - npm test
+          - npm run build
+          - cp -r ./content ../build/docker/
+          # build api
+          - cd ../
+          - export PROJECT_NAME=api
+          - export TEST_NAME=WebTrackSystemTest
+          - dotnet restore $PROJECT_NAME
+          - dotnet build $PROJECT_NAME
+          # - dotnet test $TEST_NAME
+          - dotnet publish $PROJECT_NAME -c Release --force -o ../build/docker/api
+          # build docker images
+          - cd ./build/docker
+          - export IMAGE_NAME=$DOCKER_HUB_USERNAME/$BITBUCKET_REPO_SLUG:$APP_VERSION
+          - export LATEST_IMAGE_NAME=$DOCKER_HUB_USERNAME/$BITBUCKET_REPO_SLUG:latest
+          - docker build -t $IMAGE_NAME .
+          - docker tag $IMAGE_NAME $LATEST_IMAGE_NAME
+          - docker login --username $DOCKER_HUB_USERNAME --password $DOCKER_HUB_PASSWORD
+          - docker push $IMAGE_NAME
+          - docker push LATEST_IMAGE_NAME

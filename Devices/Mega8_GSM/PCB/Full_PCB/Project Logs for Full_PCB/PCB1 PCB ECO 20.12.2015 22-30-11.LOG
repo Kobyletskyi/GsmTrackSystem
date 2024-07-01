@@ -1,0 +1,105 @@
+Added Component: Designator=C1(CAPC(0805)2012X07N)
+Added Component: Designator=C2(CAPC(0805)2012X07N)
+Added Component: Designator=C3(CAPMP7343X310N)
+Added Component: Designator=DD1(SIM900)
+Added Component: Designator=J?(HIROSE_U.FL-R-SMT-1(10))
+Added Component: Designator=P?(HDR1X6)
+Added Component: Designator=P?(HDR1X6)
+Added Component: Designator=R1(RESC(0805)2112X05N)
+Added Component: Designator=R2(RESC(0805)2112X05N)
+Added Component: Designator=R3(RESC(0805)2112X05N)
+Added Component: Designator=R?(RESC(0805)2112X05N_wave)
+Added Component: Designator=S1(SIM0424)
+Added Component: Designator=U?(32A_N)
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=DD1-1
+Added Pin To Net: NetName=GND Pin=S1-4
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-21
+Added Net: Name=GND
+Added Pin To Net: NetName=M_RX-S_TX Pin=DD1-9
+Added Pin To Net: NetName=M_RX-S_TX Pin=P?-1
+Added Pin To Net: NetName=M_RX-S_TX Pin=U?-30
+Added Net: Name=M_RX-S_TX
+Added Pin To Net: NetName=M_TX-S_RX Pin=DD1-10
+Added Pin To Net: NetName=M_TX-S_RX Pin=P?-2
+Added Pin To Net: NetName=M_TX-S_RX Pin=U?-31
+Added Net: Name=M_TX-S_RX
+Added Pin To Net: NetName=MISO Pin=P?-3
+Added Pin To Net: NetName=MISO Pin=U?-16
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=P?-4
+Added Pin To Net: NetName=MOSI Pin=U?-15
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=C3-2
+Added Pin To Net: NetName=NetC1_2 Pin=DD1-17
+Added Pin To Net: NetName=NetC1_2 Pin=DD1-18
+Added Pin To Net: NetName=NetC1_2 Pin=DD1-29
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=DD1-31
+Added Pin To Net: NetName=NetC2_2 Pin=R3-2
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=DD1-26
+Added Net: Name=NetC3_1
+Added Pin To Net: NetName=NetDD1_32 Pin=DD1-32
+Added Pin To Net: NetName=NetDD1_32 Pin=R1-2
+Added Net: Name=NetDD1_32
+Added Pin To Net: NetName=NetDD1_33 Pin=DD1-33
+Added Pin To Net: NetName=NetDD1_33 Pin=R2-2
+Added Net: Name=NetDD1_33
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-39
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-45
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-46
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-53
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-54
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-58
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-59
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-61
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-62
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-63
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-64
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-65
+Added Pin To Net: NetName=NetDD1_39 Pin=J?-2
+Added Pin To Net: NetName=NetDD1_39 Pin=J?-2
+Added Net: Name=NetDD1_39
+Added Pin To Net: NetName=NetDD1_60 Pin=DD1-60
+Added Pin To Net: NetName=NetDD1_60 Pin=J?-1
+Added Net: Name=NetDD1_60
+Added Pin To Net: NetName=NETLABEL24 Pin=P?-1
+Added Pin To Net: NetName=NETLABEL24 Pin=R?-2
+Added Pin To Net: NetName=NETLABEL24 Pin=U?-29
+Added Net: Name=NETLABEL24
+Added Pin To Net: NetName=NETLABEL30 Pin=R2-1
+Added Pin To Net: NetName=NETLABEL30 Pin=S1-2
+Added Net: Name=NETLABEL30
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=S1-3
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=S1-6
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=RI Pin=DD1-4
+Added Pin To Net: NetName=RI Pin=P?-3
+Added Pin To Net: NetName=RI Pin=U?-32
+Added Net: Name=RI
+Added Pin To Net: NetName=SCK Pin=P?-2
+Added Pin To Net: NetName=SCK Pin=U?-17
+Added Net: Name=SCK
+Added Pin To Net: NetName=SIM_VDD Pin=C1-1
+Added Pin To Net: NetName=SIM_VDD Pin=DD1-30
+Added Pin To Net: NetName=SIM_VDD Pin=S1-1
+Added Net: Name=SIM_VDD
+Added Pin To Net: NetName=SLEEP Pin=DD1-3
+Added Pin To Net: NetName=SLEEP Pin=P?-4
+Added Pin To Net: NetName=SLEEP Pin=U?-1
+Added Net: Name=SLEEP
+Added Pin To Net: NetName=VCC Pin=R?-1
+Added Pin To Net: NetName=VCC Pin=U?-4
+Added Pin To Net: NetName=VCC Pin=U?-6
+Added Net: Name=VCC
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

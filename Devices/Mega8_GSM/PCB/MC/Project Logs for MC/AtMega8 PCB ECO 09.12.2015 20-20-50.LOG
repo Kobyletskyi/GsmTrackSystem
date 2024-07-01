@@ -1,0 +1,16 @@
+Added Component: Designator=P2(HDR1X6)
+Added Component: Designator=P3(HDR1X6)
+Added Component: Designator=U1(32A_N)
+Added Pin To Net: NetName=NetP2_1 Pin=P2-1
+Added Pin To Net: NetName=NetP2_1 Pin=P3-1
+Added Pin To Net: NetName=NetP2_1 Pin=U1-3
+Added Pin To Net: NetName=NetP2_1 Pin=U1-5
+Added Pin To Net: NetName=NetP2_1 Pin=U1-21
+Added Net: Name=NetP2_1
+Added Pin To Net: NetName=NetP2_2 Pin=P2-2
+Added Pin To Net: NetName=NetP2_2 Pin=P3-2
+Added Pin To Net: NetName=NetP2_2 Pin=U1-4
+Added Pin To Net: NetName=NetP2_2 Pin=U1-6
+Added Net: Name=NetP2_2
+Added Class: Name=AtMega8
+Added Room: Name=AtMega8

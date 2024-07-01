@@ -1,0 +1,10 @@
+Replace Part C1 Cap in C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\PCB\Sim900\Sim900.SchDoc with Cap from Common.IntLib
+Replace Part C2 Cap in C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\PCB\Sim900\Sim900.SchDoc with Cap from Common.IntLib
+Replace Part C3 Capacitor - polarized in C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\PCB\Sim900\Sim900.SchDoc with Capacitor - polarized from Capacitors.DbLib
+Replace Part DD1 SIM900 in C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\PCB\Sim900\Sim900.SchDoc with SIM900 from SIM900.SchLib
+Replace Part J1 Coax_1Male_1Shield in C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\PCB\Sim900\Sim900.SchDoc with Coax_1Male_1Shield from Connectors.DbLib
+Replace Part P1 Header 6H in C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\PCB\Sim900\Sim900.SchDoc with Header 6H from Miscellaneous Connectors.IntLib
+Replace Part R1 Resistor in C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\PCB\Sim900\Sim900.SchDoc with Resistor from Common.IntLib
+Replace Part R2 Resistor in C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\PCB\Sim900\Sim900.SchDoc with Resistor from Common.IntLib
+Replace Part R3 Resistor in C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\PCB\Sim900\Sim900.SchDoc with Resistor from Common.IntLib
+Replace Part S? SIM0424 in C:\Users\www\Google Диск\Projects\GsmTrackSystem\GsmDevice\PCB\Sim900\Sim900.SchDoc with SIM0424 from SimHolders.SchLib
